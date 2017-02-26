@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA57D9741E5D3B4C005C8740 /* RNDateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA57D9731E5D3B4C005C8740 /* RNDateHelper.swift */; };
+		EA78ACD31E5A96860082B053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA78ACD21E5A96860082B053 /* AppDelegate.swift */; };
+		EA78ACD51E5A96860082B053 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA78ACD41E5A96860082B053 /* ViewController.swift */; };
+		EA78ACD81E5A96860082B053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA78ACD61E5A96860082B053 /* Main.storyboard */; };
+		EA78ACDA1E5A96860082B053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA78ACD91E5A96860082B053 /* Assets.xcassets */; };
+		EA78ACDD1E5A96860082B053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA78ACDB1E5A96860082B053 /* LaunchScreen.storyboard */; };
+		EA78ACE81E5A96860082B053 /* RNDateHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA78ACE71E5A96860082B053 /* RNDateHelperTests.swift */; };
+		EA78ACF31E5A96860082B053 /* RNDateHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA78ACF21E5A96860082B053 /* RNDateHelperUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA78ACE41E5A96860082B053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA78ACC71E5A96860082B053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA78ACCE1E5A96860082B053;
+			remoteInfo = RNDateHelper;
+		};
+		EA78ACEF1E5A96860082B053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA78ACC71E5A96860082B053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA78ACCE1E5A96860082B053;
+			remoteInfo = RNDateHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA57D9731E5D3B4C005C8740 /* RNDateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNDateHelper.swift; sourceTree = "<group>"; };
+		EA78ACCF1E5A96860082B053 /* RNDateHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNDateHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA78ACD21E5A96860082B053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA78ACD41E5A96860082B053 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA78ACD71E5A96860082B053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA78ACD91E5A96860082B053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA78ACDC1E5A96860082B053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA78ACDE1E5A96860082B053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA78ACE31E5A96860082B053 /* RNDateHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNDateHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA78ACE71E5A96860082B053 /* RNDateHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNDateHelperTests.swift; sourceTree = "<group>"; };
+		EA78ACE91E5A96860082B053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA78ACEE1E5A96860082B053 /* RNDateHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNDateHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA78ACF21E5A96860082B053 /* RNDateHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNDateHelperUITests.swift; sourceTree = "<group>"; };
+		EA78ACF41E5A96860082B053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA78ACCC1E5A96860082B053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA78ACE01E5A96860082B053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA78ACEB1E5A96860082B053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA78ACC61E5A96860082B053 = {
+			isa = PBXGroup;
+			children = (
+				EA78ACD11E5A96860082B053 /* RNDateHelper */,
+				EA78ACE61E5A96860082B053 /* RNDateHelperTests */,
+				EA78ACF11E5A96860082B053 /* RNDateHelperUITests */,
+				EA78ACD01E5A96860082B053 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA78ACD01E5A96860082B053 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA78ACCF1E5A96860082B053 /* RNDateHelper.app */,
+				EA78ACE31E5A96860082B053 /* RNDateHelperTests.xctest */,
+				EA78ACEE1E5A96860082B053 /* RNDateHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA78ACD11E5A96860082B053 /* RNDateHelper */ = {
+			isa = PBXGroup;
+			children = (
+				EA78ACD21E5A96860082B053 /* AppDelegate.swift */,
+				EA57D9731E5D3B4C005C8740 /* RNDateHelper.swift */,
+				EA78ACD41E5A96860082B053 /* ViewController.swift */,
+				EA78ACD61E5A96860082B053 /* Main.storyboard */,
+				EA78ACD91E5A96860082B053 /* Assets.xcassets */,
+				EA78ACDB1E5A96860082B053 /* LaunchScreen.storyboard */,
+				EA78ACDE1E5A96860082B053 /* Info.plist */,
+			);
+			path = RNDateHelper;
+			sourceTree = "<group>";
+		};
+		EA78ACE61E5A96860082B053 /* RNDateHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA78ACE71E5A96860082B053 /* RNDateHelperTests.swift */,
+				EA78ACE91E5A96860082B053 /* Info.plist */,
+			);
+			path = RNDateHelperTests;
+			sourceTree = "<group>";
+		};
+		EA78ACF11E5A96860082B053 /* RNDateHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA78ACF21E5A96860082B053 /* RNDateHelperUITests.swift */,
+				EA78ACF41E5A96860082B053 /* Info.plist */,
+			);
+			path = RNDateHelperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA78ACCE1E5A96860082B053 /* RNDateHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA78ACF71E5A96860082B053 /* Build configuration list for PBXNativeTarget "RNDateHelper" */;
+			buildPhases = (
+				EA78ACCB1E5A96860082B053 /* Sources */,
+				EA78ACCC1E5A96860082B053 /* Frameworks */,
+				EA78ACCD1E5A96860082B053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNDateHelper;
+			productName = RNDateHelper;
+			productReference = EA78ACCF1E5A96860082B053 /* RNDateHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA78ACE21E5A96860082B053 /* RNDateHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA78ACFA1E5A96860082B053 /* Build configuration list for PBXNativeTarget "RNDateHelperTests" */;
+			buildPhases = (
+				EA78ACDF1E5A96860082B053 /* Sources */,
+				EA78ACE01E5A96860082B053 /* Frameworks */,
+				EA78ACE11E5A96860082B053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA78ACE51E5A96860082B053 /* PBXTargetDependency */,
+			);
+			name = RNDateHelperTests;
+			productName = RNDateHelperTests;
+			productReference = EA78ACE31E5A96860082B053 /* RNDateHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA78ACED1E5A96860082B053 /* RNDateHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA78ACFD1E5A96860082B053 /* Build configuration list for PBXNativeTarget "RNDateHelperUITests" */;
+			buildPhases = (
+				EA78ACEA1E5A96860082B053 /* Sources */,
+				EA78ACEB1E5A96860082B053 /* Frameworks */,
+				EA78ACEC1E5A96860082B053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA78ACF01E5A96860082B053 /* PBXTargetDependency */,
+			);
+			name = RNDateHelperUITests;
+			productName = RNDateHelperUITests;
+			productReference = EA78ACEE1E5A96860082B053 /* RNDateHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA78ACC71E5A96860082B053 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "罗伟";
+				TargetAttributes = {
+					EA78ACCE1E5A96860082B053 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YVG6KC69KQ;
+						ProvisioningStyle = Automatic;
+					};
+					EA78ACE21E5A96860082B053 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YVG6KC69KQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA78ACCE1E5A96860082B053;
+					};
+					EA78ACED1E5A96860082B053 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YVG6KC69KQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA78ACCE1E5A96860082B053;
+					};
+				};
+			};
+			buildConfigurationList = EA78ACCA1E5A96860082B053 /* Build configuration list for PBXProject "RNDateHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA78ACC61E5A96860082B053;
+			productRefGroup = EA78ACD01E5A96860082B053 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA78ACCE1E5A96860082B053 /* RNDateHelper */,
+				EA78ACE21E5A96860082B053 /* RNDateHelperTests */,
+				EA78ACED1E5A96860082B053 /* RNDateHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA78ACCD1E5A96860082B053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA78ACDD1E5A96860082B053 /* LaunchScreen.storyboard in Resources */,
+				EA78ACDA1E5A96860082B053 /* Assets.xcassets in Resources */,
+				EA78ACD81E5A96860082B053 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA78ACE11E5A96860082B053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA78ACEC1E5A96860082B053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA78ACCB1E5A96860082B053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA78ACD51E5A96860082B053 /* ViewController.swift in Sources */,
+				EA57D9741E5D3B4C005C8740 /* RNDateHelper.swift in Sources */,
+				EA78ACD31E5A96860082B053 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA78ACDF1E5A96860082B053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA78ACE81E5A96860082B053 /* RNDateHelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA78ACEA1E5A96860082B053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA78ACF31E5A96860082B053 /* RNDateHelperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA78ACE51E5A96860082B053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA78ACCE1E5A96860082B053 /* RNDateHelper */;
+			targetProxy = EA78ACE41E5A96860082B053 /* PBXContainerItemProxy */;
+		};
+		EA78ACF01E5A96860082B053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA78ACCE1E5A96860082B053 /* RNDateHelper */;
+			targetProxy = EA78ACEF1E5A96860082B053 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA78ACD61E5A96860082B053 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA78ACD71E5A96860082B053 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA78ACDB1E5A96860082B053 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA78ACDC1E5A96860082B053 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA78ACF51E5A96860082B053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA78ACF61E5A96860082B053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA78ACF81E5A96860082B053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YVG6KC69KQ;
+				INFOPLIST_FILE = RNDateHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeKing.RNDateHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EA78ACF91E5A96860082B053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YVG6KC69KQ;
+				INFOPLIST_FILE = RNDateHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeKing.RNDateHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EA78ACFB1E5A96860082B053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YVG6KC69KQ;
+				INFOPLIST_FILE = RNDateHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeKing.RNDateHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNDateHelper.app/RNDateHelper";
+			};
+			name = Debug;
+		};
+		EA78ACFC1E5A96860082B053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YVG6KC69KQ;
+				INFOPLIST_FILE = RNDateHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeKing.RNDateHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNDateHelper.app/RNDateHelper";
+			};
+			name = Release;
+		};
+		EA78ACFE1E5A96860082B053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YVG6KC69KQ;
+				INFOPLIST_FILE = RNDateHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeKing.RNDateHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RNDateHelper;
+			};
+			name = Debug;
+		};
+		EA78ACFF1E5A96860082B053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YVG6KC69KQ;
+				INFOPLIST_FILE = RNDateHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeKing.RNDateHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RNDateHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA78ACCA1E5A96860082B053 /* Build configuration list for PBXProject "RNDateHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA78ACF51E5A96860082B053 /* Debug */,
+				EA78ACF61E5A96860082B053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA78ACF71E5A96860082B053 /* Build configuration list for PBXNativeTarget "RNDateHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA78ACF81E5A96860082B053 /* Debug */,
+				EA78ACF91E5A96860082B053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA78ACFA1E5A96860082B053 /* Build configuration list for PBXNativeTarget "RNDateHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA78ACFB1E5A96860082B053 /* Debug */,
+				EA78ACFC1E5A96860082B053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA78ACFD1E5A96860082B053 /* Build configuration list for PBXNativeTarget "RNDateHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA78ACFE1E5A96860082B053 /* Debug */,
+				EA78ACFF1E5A96860082B053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA78ACC71E5A96860082B053 /* Project object */;
+}
